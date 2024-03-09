@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+}
+.main-space{
+    width: 100%;
+    height: auto;
+    background-color: rgb(242, 246, 255);
+    
+
+}
+.heading h1{
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+.news-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+
+
+}
+.card{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 8%;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.date{
+    color: #4d81e8;
+}
+.news-headings{
+    font-weight: 900;
+}
+.card img{
+    width: 100%;
+}
+.see-more{
+    text-align: center;
+}
+.see-more>button{
+    background-color: rgb(242, 246, 255);
+    margin-top: 10px;
+    color: red;
+    border: 2px solid red;
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 12px 18px 12px 18px;
+    border-radius: 7px;
+}
+.foot h1{
+    margin-top: 40px;
+}
+.inv-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inv>img{
+    width: 90%;
+    height: auto;
+    border: 2px solid rgb(229, 231, 235);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
